@@ -29,21 +29,21 @@ footer {
     grid-template-columns: 3fr 300px;
     height: 120px;
     background-color: #555;
+}
 
+.wrapper-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 50px;
+    padding-left: 0px; 
 }
 
 .hidden-text {
     display: none;
 }
 
-/* nav > div > ul{
-    display: inline-block;
-} */
-
 nav ul > li {
-    
     text-align: center;
-    font-family: TitilliumWeb;
     font-style: italic;
     font-weight: bold;
     color: #555;
@@ -71,7 +71,7 @@ a {
     border-radius: 110px;
 }
 
-div > img {
+img {
     width: 400px;
     position: relative;
     bottom: 20px;
@@ -130,4 +130,14 @@ input {
     font-weight: bold;
     margin-top: 10px;
     margin-left: 300px;
+    background-color: #ada;
+}
+
+input:hover {
+    background-color: #5d5;
+}
+
+.navi {
+    width: 100%;
+    color: red;
 }
